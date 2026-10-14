@@ -82,3 +82,4 @@ Messages are stored in server memory (last 200 per room), so they reset when the
 - Port the client to TypeScript
 - Virtualize the message list for very long histories
 - Add component tests with Vitest and React Testing Library, and a GitHub Actions workflow
+made by NitinMalhotra001
