@@ -27,7 +27,8 @@ const PAGE_SIZE = 30;
 const DEFAULT_ROOMS = ["general", "random", "react-help"];
 
 const app = express();
-app.use(cors(corsOptions));
+app.use(cors({origin: process.env.CLIENT_URL,
+  credentials: true}));
 app.use(express.json());
 
 // Mount file upload routes
