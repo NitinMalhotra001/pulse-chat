@@ -7,7 +7,6 @@ A real-time chat app with rooms, built with **React (Vite)** and **Node + Socket
 - Join with a display name and pick or create a room
 - Live messaging with per-room isolation
 - Online users list and room list with live counts
-- Typing indicators (debounced)
 - **Optimistic sending**: messages appear instantly and are reconciled with the server copy via a `clientId`; failed sends show a Retry button
 - **Auto-reconnect**: the client rejoins its room and shows an offline banner while disconnected
 - **Infinite scroll** for older messages, with the scroll position preserved
