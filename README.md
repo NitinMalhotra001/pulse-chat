@@ -1,6 +1,6 @@
 # Pulse Chat - Enhanced Version with Authentication & Private Rooms
 
-A real-time chat application built with React, Node.js, Socket.IO, and MongoDB featuring user authentication and private rooms with password protection.
+
 
 ## Features
 
