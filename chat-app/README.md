@@ -50,7 +50,7 @@ Run the server tests with `cd server && npm test`.
 
 ## Deploy for free
 
-The server needs a host that supports long-lived WebSocket connections, so deploy the two parts separately.
+The server needs a host that supports long-lived WebSocket connections, so deploy the two part separately.
 
 **1. Server → Render (Web Service)**
 - Root directory: `server`
